@@ -1187,7 +1187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c56174e3afd7b84e8df911886acad72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 10
+  moveSpeed: 20
+  turnSpeed: 30
 --- !u!54 &643293101
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1633,7 +1634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1385500138}
   m_Layer: 9
-  m_Name: Environment
+  m_Name: ==Environment==
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1704,7 +1705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637382561}
   m_Layer: 0
-  m_Name: Obstacles
+  m_Name: ==Obstacles==
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2238,5 +2239,5 @@ SceneRoots:
   - {fileID: 534669905}
   - {fileID: 170076735}
   - {fileID: 1385500138}
-  - {fileID: 562799145}
   - {fileID: 1637382561}
+  - {fileID: 562799145}
