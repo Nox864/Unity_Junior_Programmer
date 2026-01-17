@@ -3,6 +3,7 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     [SerializeField] private GameObject player;
+    
     private Vector3 offset = new Vector3(0, 6, -8);
     private Vector3 fpsOffset = new Vector3(0, 4, 3);
 
@@ -39,6 +40,11 @@ public class FollowPlayer : MonoBehaviour
         }
     }
 
+    private void FixedUpdate()
+    {
+        
+    }
+
     private void SwitchCameraMode()
     {
         firstPerson = !firstPerson;
@@ -53,4 +59,6 @@ public class FollowPlayer : MonoBehaviour
         //    firstPerson = false;
         //}
     }
+
+      
 }
